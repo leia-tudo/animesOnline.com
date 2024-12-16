@@ -71,3 +71,17 @@ a.butão:hover{
 .centro{
     text-align: center;
 }
+.temporadas{
+    color: white;
+    background-color: black;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 6px;
+}
+.temporadas:hover{
+    color: gray;
+    background-color: white;
+    border: solid black 2px;
+}
