@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    position: sticky;
+    top: 0;
+    color: green;
+    background-color:orange;
+    font-size: 20px;
+    padding: 6px;
+}
+a{
+    text-decoration: none;
+    color:white;
+text-align: center;
+}
+h2{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.imagemcentro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagemcentro:hover{
+    opacity: 0.7;
+}
+.episodios{
+display: block;
+text-align: center;
+background-color: white;
+color: black;
+padding: 8px;
+border-radius: 20px;
+border: solid 2px gray;
+}
+.linkcentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.generos{
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    text-align: center;
+}
+.imagem{
+    width: 170px;
+    border-radius: 5px;
+}
+.imagem:hover{
+ opacity: 0.7;
+}
+a.butão2{
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+a.butão:hover{
+    color: orange;
+}
